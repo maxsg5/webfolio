@@ -1,0 +1,17 @@
+#home > div.jumbotron.jumbotron-fluid{
+    text-align: center;
+    margin-top: 180px;
+    background-color: #00000067;
+    pointer-events: none;
+    cursor: default;
+}
+
+#home{
+    background-image: url(../img/SneakyUnripeAssassinbug-size_restricted.gif);
+    background-size: cover;
+}
+
+#TypeText{
+    color: #ffffff;
+}
+
