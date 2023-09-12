@@ -17,6 +17,10 @@
 
 #more {display: none;}
 
+#inflexion ::before{
+  background-color: #fff;
+}
+
 @media only screen and (min-width: 991px) {
     .timeline li .title{
         width: 362px;
@@ -47,6 +51,12 @@
         transition: right 250ms ease, left 250ms ease;
       }
       
+      .thumbnail--catoutofhell {
+        background-image: url("../img/COOH.png");
+      }
+      .thumbnail--lote {
+        background-image: url("../img/lote.png");
+      }
       .thumbnail--awesome {
         background-image: url("../img/InteractivePortfolio.png");
       }
@@ -288,6 +298,8 @@
       .btn:hover {
         background: rgba(255, 255, 255, 0.6);
       }
+
+      
       
   }
 
