@@ -1,305 +1,345 @@
-#home > div.jumbotron.jumbotron-fluid{
-    text-align: center;
-    margin-top: 180px;
-    background-color: #00000067;
-    pointer-events: none;
-    cursor: default;
+#home>div.jumbotron.jumbotron-fluid {
+  text-align: center;
+  margin-top: 180px;
+  background-color: #00000067;
+  pointer-events: none;
+  cursor: default;
 }
 
-#home{
-    background-image: url(../img/SneakyUnripeAssassinbug-size_restricted.gif);
-    background-size: cover;
+#home {
+  background-image: url(../img/SneakyUnripeAssassinbug-size_restricted.gif);
+  background-size: cover;
 }
 
-#TypeText{
-    color: #ffffff;
+#TypeText {
+  color: #ffffff;
 }
 
-#more {display: none;}
+#more {
+  display: none;
+}
 
-#inflexion ::before{
+#inflexion ::before {
   background-color: #fff;
 }
 
 @media only screen and (min-width: 991px) {
-    .timeline li .title{
-        width: 362px;
-    }
+  .timeline li .title {
+    width: 362px;
   }
-
-@media only screen and (min-width: 900px) {
-    .showcase {
-        position: relative;
-        width: 90%;
-        height: 17em;
-        margin: 1em auto;
-        overflow: hidden;
-        background: transparent;
-        border-radius: 0.5em;
-      }
-      
-      .thumbnail {
-        position: absolute;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 300px;
-        z-index: 1;
-        background: #293853;
-        background-position: 50% 50%;
-        background-size: cover;
-        transition: right 250ms ease, left 250ms ease;
-      }
-      
-      .thumbnail--catoutofhell {
-        background-image: url("../img/COOH.png");
-      }
-      .thumbnail--lote {
-        background-image: url("../img/lote.png");
-      }
-      .thumbnail--awesome {
-        background-image: url("../img/InteractivePortfolio.png");
-      }
-      .thumbnail--ookboard{
-          background-image: url("../img/ookboardAndroid.PNG");
-      }
-      .thumbnail--scheduleverse{
-          background-image: url("../img/mq2.jpg");
-      }
-      .thumbnail--glorb{
-          background-image: url("../img/glorb.png");
-      }
-      .thumbnail--coindash{
-          background-image: url("../img/CoinDashImg.PNG");
-      }
-      
-      .thumbnail__overlay {
-        position: relative;
-        padding-top: 8em;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.4);
-        text-align: center;
-        opacity: 0;
-        transition: opacity 250ms ease;
-      }
-      
-      .desc {
-        position: absolute;
-        width: 300px;
-        height: 100%;
-        top: 0;
-        right: 0;
-        padding: 20px;
-        z-index: 2;
-        background: #263566;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        transition: background 250ms ease, color 250ms, width 250ms ease, padding 250ms ease;
-      }
-      .desc:after {
-        display: block;
-        width: 0;
-        height: 0;
-        position: absolute;
-        top: 50%;
-        left: -20px;
-        margin-top: -10px;
-        border-style: solid;
-        border-width: 10px;
-        border-color: transparent #fff transparent transparent;
-        content: "";
-        transition: border-color 250ms;
-      }
-      
-      .showcase:hover .thumbnail {
-        right: 325px;
-        left: -25px;
-      }
-      .showcase:hover .thumbnail__overlay {
-        opacity: 1;
-      }
-      .showcase:hover .desc {
-        width: 350px;
-        padding-left: 45px;
-        padding-right: 45px;
-        background: #202426;
-        color: #fff;
-      }
-      .showcase:hover .desc:after {
-        border-color: transparent #202426 transparent transparent;
-      }
-      
-      .showcase--inverted .thumbnail {
-        right: 0;
-        left: 300px;
-      }
-      
-      .showcase--inverted .desc {
-        left: 0;
-        right: auto;
-      }
-      .showcase--inverted .desc:after {
-        left: auto;
-        right: -20px;
-        border-color: transparent transparent transparent #fff;
-      }
-      
-      .showcase--inverted:hover .thumbnail {
-        left: 325px;
-        right: -25px;
-      }
-      .showcase--inverted:hover .desc:after {
-        border-color: transparent transparent transparent #202426;
-      }
-      
-      .btn {
-        padding: 1em 2em;
-        border: 0.15em solid #fff;
-        color: #fff;
-        text-decoration: none;
-        font-weight: 700;
-        transition: background 250ms;
-      }
-      .btn:hover {
-        background: rgba(255, 255, 255, 0.6);
-      }
-      
-      /*# sourceMappingURL=output.css.map */
-      
-    
 }
 
-  @media only screen and (max-width: 900px) {
-    .showcase {
-        position: relative;
-        width: 100%;
-        height: 17em;
-        margin: 1em auto;
-        overflow: hidden;
-        background: transparent;
-        border-radius: 0.5em;
-      }
-      
-      .thumbnail {
-        position: absolute;
-        height: 100%;
-        
-        right: 0px;
-        z-index: 1;
-        background: #293853;
-        background-position: 50% 50%;
-        background-size: cover;
-        transition: right 250ms ease, left 250ms ease;
-      }
-      
-      .thumbnail--awesome {
-        background-image: url("../img/InteractivePortfolio.png");
-      }
-      .thumbnail--ookboard{
-          background-image: url("../img/ookboardAndroid.PNG");
-      }
-      .thumbnail--scheduleverse{
-          background-image: url("../img/mq2.jpg");
-      }
-      .thumbnail--glorb{
-          background-image: url("../img/glorb.png");
-      }
-      .thumbnail--coindash{
-          background-image: url("../img/CoinDashImg.PNG");
-      }
-      
-      .thumbnail__overlay {
-        position: relative;
-        padding-top: 8em;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.4);
-        text-align: center;
-        opacity: 0;
-        transition: opacity 250ms ease;
-      }
-      
-      .desc {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        right: 0;
-        padding: 20px;
-        z-index: 2;
-        background: #263566;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        transition: background 250ms ease, color 250ms, opacity 250ms ease;
-      }
-      .desc:after {
-        display: block;
-        width: 0;
-        height: 0;
-        position: absolute;
-        top: 50%;
-        left: -20px;
-        margin-top: -10px;
-        border-style: solid;
-        border-width: 10px;
-        border-color: transparent #fff transparent transparent;
-        content: "";
-        transition: border-color 250ms;
-      }
-      
-      .showcase:hover .thumbnail {
-        right: -100%;
-        left: 0px;
-      }
-      .showcase:hover .thumbnail__overlay {
-        opacity: 1;
-      }
-      .showcase:hover .desc {
-        opacity: 0;
-        width: 0%;
-        background: #202426;
-        color: #fff;
-      }
-      .showcase:hover .desc:after {
-        border-color: transparent #202426 transparent transparent;
-      }
-      
-      .showcase--inverted .thumbnail {
-        right: 0px;
-        left: 0px;
-      }
-      
-      .showcase--inverted .desc {
-        left: 0;
-        right: auto;
-        
-      }
-      .showcase--inverted .desc:after {
-        left: auto;
-        right: -20px;
-        border-color: transparent transparent transparent #fff;
-      }
-      
-      .showcase--inverted:hover .thumbnail {
-        left: 100px;
-        right: -25px;
-      }
-      .showcase--inverted:hover .desc:after {
-        border-color: transparent transparent transparent #202426;
-      }
-      
-      .btn {
-        padding: 1em 2em;
-        border: 0.15em solid #fff;
-        color: #fff;
-        
-        font-weight: 700;
-        transition: background 250ms;
-      }
-      .btn:hover {
-        background: rgba(255, 255, 255, 0.6);
-      }
-
-      
-      
+@media only screen and (min-width: 900px) {
+  .showcase {
+    position: relative;
+    width: 90%;
+    height: 17em;
+    margin: 1em auto;
+    overflow: hidden;
+    background: transparent;
+    border-radius: 0.5em;
   }
 
+  .thumbnail {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 300px;
+    z-index: 1;
+    background: #293853;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: right 250ms ease, left 250ms ease;
+  }
+
+  .thumbnail--undersea {
+    background-image: url("../img/Undersea.png");
+  }
+
+  .thumbnail--signalsab {
+    background-image: url("../img/SignalSAb.png");
+  }
+
+  .thumbnail--nightingale {
+    background-image: url("../img/Nightingale.jpg");
+  }
+  .thumbnail--bumperducks {
+    background-image: url("../img/bumperducks\(1\).png");
+  }
+
+  .thumbnail--catoutofhell {
+    background-image: url("../img/COOH.png");
+  }
+
+  .thumbnail--lote {
+    background-image: url("../img/lote.png");
+  }
+
+  .thumbnail--awesome {
+    background-image: url("../img/InteractivePortfolio.png");
+  }
+
+  .thumbnail--ookboard {
+    background-image: url("../img/ookboardAndroid.PNG");
+  }
+
+  .thumbnail--scheduleverse {
+    background-image: url("../img/Scheduleverse.png");
+  }
+
+  .thumbnail--glorb {
+    background-image: url("../img/glorb.png");
+  }
+
+  .thumbnail--coindash {
+    background-image: url("../img/CoinDashImg.PNG");
+  }
+
+  .thumbnail__overlay {
+    position: relative;
+    padding-top: 8em;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 250ms ease;
+  }
+
+  .desc {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 2;
+    background: #263566;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: background 250ms ease, color 250ms, width 250ms ease, padding 250ms ease;
+  }
+
+  .desc:after {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #fff transparent transparent;
+    content: "";
+    transition: border-color 250ms;
+  }
+
+  .showcase:hover .thumbnail {
+    right: 325px;
+    left: -25px;
+  }
+
+  .showcase:hover .thumbnail__overlay {
+    opacity: 1;
+  }
+
+  .showcase:hover .desc {
+    width: 350px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background: #202426;
+    color: #fff;
+  }
+
+  .showcase:hover .desc:after {
+    border-color: transparent #202426 transparent transparent;
+  }
+
+  .showcase--inverted .thumbnail {
+    right: 0;
+    left: 300px;
+  }
+
+  .showcase--inverted .desc {
+    left: 0;
+    right: auto;
+  }
+
+  .showcase--inverted .desc:after {
+    left: auto;
+    right: -20px;
+    border-color: transparent transparent transparent #fff;
+  }
+
+  .showcase--inverted:hover .thumbnail {
+    left: 325px;
+    right: -25px;
+  }
+
+  .showcase--inverted:hover .desc:after {
+    border-color: transparent transparent transparent #202426;
+  }
+
+  .btn {
+    padding: 1em 2em;
+    border: 0.15em solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background 250ms;
+  }
+
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  /*# sourceMappingURL=output.css.map */
+
+
+}
+
+@media only screen and (max-width: 900px) {
+  .showcase {
+    position: relative;
+    width: 100%;
+    height: 17em;
+    margin: 1em auto;
+    overflow: hidden;
+    background: transparent;
+    border-radius: 0.5em;
+  }
+
+  .thumbnail {
+    position: absolute;
+    height: 100%;
+
+    right: 0px;
+    z-index: 1;
+    background: #293853;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: right 250ms ease, left 250ms ease;
+  }
+
+  .thumbnail--awesome {
+    background-image: url("../img/InteractivePortfolio.png");
+  }
+
+  .thumbnail--ookboard {
+    background-image: url("../img/ookboardAndroid.PNG");
+  }
+
+  .thumbnail--scheduleverse {
+    background-image: url("../img/mq2.jpg");
+  }
+
+  .thumbnail--glorb {
+    background-image: url("../img/glorb.png");
+  }
+
+  .thumbnail--coindash {
+    background-image: url("../img/CoinDashImg.PNG");
+  }
+
+  .thumbnail__overlay {
+    position: relative;
+    padding-top: 8em;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 250ms ease;
+  }
+
+  .desc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 2;
+    background: #263566;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: background 250ms ease, color 250ms, opacity 250ms ease;
+  }
+
+  .desc:after {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #fff transparent transparent;
+    content: "";
+    transition: border-color 250ms;
+  }
+
+  .showcase:hover .thumbnail {
+    right: -100%;
+    left: 0px;
+  }
+
+  .showcase:hover .thumbnail__overlay {
+    opacity: 1;
+  }
+
+  .showcase:hover .desc {
+    opacity: 0;
+    width: 0%;
+    background: #202426;
+    color: #fff;
+  }
+
+  .showcase:hover .desc:after {
+    border-color: transparent #202426 transparent transparent;
+  }
+
+  .showcase--inverted .thumbnail {
+    right: 0px;
+    left: 0px;
+  }
+
+  .showcase--inverted .desc {
+    left: 0;
+    right: auto;
+
+  }
+
+  .showcase--inverted .desc:after {
+    left: auto;
+    right: -20px;
+    border-color: transparent transparent transparent #fff;
+  }
+
+  .showcase--inverted:hover .thumbnail {
+    left: 100px;
+    right: -25px;
+  }
+
+  .showcase--inverted:hover .desc:after {
+    border-color: transparent transparent transparent #202426;
+  }
+
+  .btn {
+    padding: 1em 2em;
+    border: 0.15em solid #fff;
+    color: #fff;
+
+    font-weight: 700;
+    transition: background 250ms;
+  }
+
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+
+
+}
