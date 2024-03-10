@@ -53,6 +53,9 @@
     transition: right 250ms ease, left 250ms ease;
   }
 
+  .thumbnail--algovis {
+    background-image: url("../img/algovis.png");
+  }
   .thumbnail--undersea {
     background-image: url("../img/Undersea.png");
   }
