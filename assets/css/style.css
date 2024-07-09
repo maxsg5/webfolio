@@ -11,6 +11,11 @@
   background-size: cover;
 }
 
+#devlog{
+  background-color: rgb(51, 51, 51);
+  height: 300px;
+}
+
 #TypeText {
   color: #ffffff;
 }
@@ -71,6 +76,15 @@
     background-image: url("../img/SignalSAb.png");
   }
 
+  .thumbnail--quirk {
+    background-image: url("../img/QuirkLogo1.png");
+    /* make the background image fit */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .thumbnail--maxcombatsystem {
+    background-image: url("../img/maxcombatsystem.png");
+  }
   .thumbnail--nightingale {
     background-image: url("../img/Nightingale.jpg");
   }
